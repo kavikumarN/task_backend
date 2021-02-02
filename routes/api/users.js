@@ -6,9 +6,7 @@ const passport = require('passport');
 const User = require('../../model/User');
 const OTPDetails = require('../../model/OtpDetails');
 const key = require('../../config/keys').secret;
-const otpStr = require('../../config/keys').otpString;
-const smsurl = require('../../config/keys').smsurl;
-const smsToken = require('../../config/keys').smsToken;
+
 var request = require("request");
 
 /**
